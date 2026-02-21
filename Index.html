@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="es">
     <head>
+        <link rel="stylesheet" href="styles.css">
         <meta charset="UTF-8" />
         <title>Mi perfil</title>
     </head>
-
     <body>
        <header>
-        <h1>Vania Duran</h1>
-        <p>Asistente de proyectos</p>
+        <h1 style="color: blueviolet;">Vania Duran</h1>
+        <p style="font-size: larger;font-weight: bolder;">Asistente de proyectos</p>
 
         <img src="https://media.tenor.com/VwZrffqyb-oAAAAi/evil-pepe-pepe-evil.gif" alt="">
         <nav>
@@ -19,6 +19,7 @@
        </header>
        <main>
         <section id="Acerca de mi">
+            <link rel="stylesheet" href="style.css">
             <h2>Soy Licenciada en Desarrollo de Talento y Cultura Organizacional especializada en sistemas SAP para Capital Humano</h2>
         </section>
         <section id="Educación">
@@ -32,18 +33,26 @@
         <section id="Experiencia">
             <h2>Experiencia</h2>
             <ul>
-                <li>Asistente de Proyectos en Traxión</li>
+                <li>Traxión</li>
+                <p>Asistente de Proyectos</p>
                 <p>2024 - Actual</p>
-                <li>Becaria de Nómina y Atención al Personal</li>
+                <li>Nestlé</li>
+                <p>Becaria de Nómina y Atención al Personal</p>
                 <p>2022-2023</p>
             </ul>
         </section>
         <section id="Contacto">
+
             <h2>Contacto</h2>
             <p>Escribe tu correo para que estemos en contacto</p>
+
             <form>
+
                 <label for="Correo"> </label>
-                <input type="text" id="Correo" name="Correo" placeholder="Escribe tu correo" required>
+                <input type="text" id="Correo" name="Correo" placeholder="tu@mail.com" required>
+
+                <button type="submit">Enviar</button>
+
             </form>
         </section>
        </main>
