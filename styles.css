@@ -1,6 +1,7 @@
-body { background-color:rgb(200, 169, 230);}
-
+body { background-color:rgb(200, 169, 230);;}
+header{text-align: center;font-style: italic;}
 section {font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-size: larger;}
 p {font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
 a{font-size: larger;font-weight: 900;}
 button {background-color: cyan;}
+img {border-color: brown;border-style: dashed;}
